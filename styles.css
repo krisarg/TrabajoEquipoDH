@@ -19,7 +19,7 @@
 }
 header{
     background-size:cover;
-    height: 120PX;    
+    height: 120PX;
     background: #499bea;
 background: -moz-linear-gradient(left, #499bea 0%, #060e55 31%, #000047 34%);
 background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(31%, #060e55), color-stop(34%, #000047));
@@ -32,11 +32,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 .headercontainer{
     background: #047;
     position: relative;
-   
-}  
+
+}
 header{
     background-size:cover;
-    height: 65PX;  
+    height: 65PX;
     z-index: 65;
     box-shadow: 0px 5px 5px black;
     }
@@ -51,13 +51,13 @@ header{
 .logo:hover{
     transform:scale(2.0);
     z-index: 80;
-    
+
 }
 nav{
     text-align: center;
     margin-bottom: 1px;
     padding-top: 23px;
-    
+
     }
 nav a{
     font-size: 1.3em;
@@ -65,20 +65,20 @@ nav a{
     margin:30px;
     text-decoration: none;
     color: white;
-    font-family: 'Swanky and Moo Moo', cursive;  
-    padding: 0.2vh;  
+    font-family: 'Swanky and Moo Moo', cursive;
+    padding: 0.2vh;
 }
 nav a:hover{
-     color:yellow;  
+     color:yellow;
      text-decoration: underline overline;
       -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
+    -webkit-transform: scale(1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
+    -ms-transform: scale(1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
-     transform: 
+     transform:
 }
 form{
     margin-top: 50px;
@@ -89,13 +89,13 @@ form{
     border-style: solid. red, 1px;
      border: 1px solid #369;
     border-radius: 7%;
-    padding: 20px;   
+    padding: 20px;
     color: black;
     font-family:sans-serif;
     border-style: solid, 1px;
     border: 1px solid #369;
     border-radius: 8%;
-    background-color: aliceblue ;     
+    background-color: aliceblue ;
 
 }
 label{
@@ -104,7 +104,7 @@ label{
     font-size: 1em;
 }
 .registro-header{
-   position:absolute;  
+   position:absolute;
     margin-right: 10%;
     z-index: 80;
 }
@@ -120,7 +120,7 @@ strong{
    }
 .faqs-container{
     background: #BFE2FE;
-   
+
 }
 .pregunta{
     line-height: 30px;
@@ -137,19 +137,19 @@ strong{
 .registro{
     padding-left: 20%;
     padding-top: 60px;
-    padding-bottom: 80px
+    padding-bottom: 80px;
 }
 .fondomagic{
-    width:auto; 
+    width:auto;
     position: relative;
-    
+
 }
 footer{
     color: aliceblue;
     width: 100%;
     background-color:#047;
     height: 60px;
-    margin-bottom:10px; 
+    margin-bottom:10px;
     position: relativ
 }
 /* +++++++++++++++++++  gradient  ++++++++++++++++++++++++++*/
@@ -166,7 +166,7 @@ footer{
     font-size: 0.7em;
     font-family: Georgia;
     text-align: center;
-    padding-top: 20px;    
+    padding-top: 20px;
 }
 /*----------------- @ medias 3 2 0 +++++++++++++  */
 @media (min-width:320px)
@@ -176,7 +176,7 @@ footer{
 }
   .headercontainer{
   width:100%;
-  font-size:80%;
+  font-size:65%;
 }
   nav a{
   margin:3%;
@@ -185,44 +185,42 @@ footer{
 right:0%;
 top:20px;
 min-width:13vw;
-max-width: ;    
+max-width: ;
 }
 .faqs-container{
   margin:none;
   width:100%;
   font-size:80%;
-    
+
 }
 .faqs{
   margin-right:15%;
 }
 .registro{
   padding-left:4%;
-    margin-left: 
+    margin-left:
 }
-.registro_button{
-  position:relative;
-  left:15vw;
-}
+
 }
 /*+++++++++++++++++++++++++++++++++++++++++++++*/
 @media (max-width:720px)  {
     .logo{
-        top: 1.0vh;
+        top: 1vh;
+        left:25vw;
         position: absolute;
-       
+
     }
     .headercontainer{
         position: relative;
         padding-top: 4vh;
-        height: 60px
+        height: 60px;
     }
     .fondomagic{
         height: 360px
     }
-    
+
     }
-        
+
     /*++++++++++++++++++++++++++++++++++++++++++*/
 /*@media (min-width:721px)  {{
 position:absolute;
@@ -239,7 +237,7 @@ height:30vw;
 /*  ++++++++++++++++++++++++++++++++++++++++++ */
 @media (min-width:721px)
 
-{ 
+{
   {
   width:100%;
   font-size:80%;
@@ -252,20 +250,19 @@ position:absolut;
 
 
 }
+.headercontainer{
+  font-size: 100%;
+}
 .faqs-container{
   margin:none;
   width:100%;
   font-size:80%;
-}    
+}
 .faqs{
   margin-right:5%;
 }
 .registro{
   padding-left:0%;
-}
-.registro_button{
-  position:relative;
-  left:50vw;
 }
 }
 /* +++++++++++++++++++++++++++++++ ++++++++++++++ */
@@ -276,20 +273,15 @@ position:absolut;
     text-decoration: none;
     color: white;
     font-family: 'Swanky and Moo Moo', cursive;
-    }   
-    .registro_button{
-  position:relative;
-  left:15vw;
-}
-  }  
+    }
+
+  }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++*/
-@media (min-width:1281px) { 
+@media (min-width:1281px) {
     .registro-header{
 
 top:20px;
 min-width:9%;
-right: 20%        
+right: 20%
 }
 }
-    
-    

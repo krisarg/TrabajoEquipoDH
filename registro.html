@@ -6,24 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
-  
+
   <title>Inicio - "Nombre del sitio"</title>
 </head>
 
 <body>
+
    <div class="headercontainer"> <img src="img/osspic2.png" class="logo">
  <!-- cambienle el nombre de las clases de ser necesario-->
 
     <h1><a href=#>
-              
+
           </a>
       </h1>
      <!-- Le puse un a para que al clickearlo redireccione Home-->
 
       <header>
-        <nav>  
+        <nav>
         <!--Esto estará en todas las hojas-->
-        
+
         <a href="index.html">Home </a> <!-- Probablemente index.html-->
         <a href="faq.html">FAQ </a>
         <a href="registro.html">Abre una cuenta </a>
@@ -34,8 +35,41 @@
       </header>
     </div>
 
+<style>.headercontainer{
+  margin: 0;
+}</style>
+    <style>
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
 
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
 
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    </style>
     <!-- Solo un poco de márgenes en los costados-->
   <div class="registro">
     <label>Nombre</label>
@@ -405,9 +439,9 @@
 <br>
   <br>
   <label>Profesión</label>
-  
+
 <input type="text" name="arte_marcial"><br><br>
- <label>Arte marcial que practica</label>  
+ <label>Arte marcial que practica</label>
    <input type="text" name="profesion" maxlength="50" required>
       <br>  <br>
   <label>Email </label>
