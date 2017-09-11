@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
-  
+
   <title>Inicio - "Nombre del sitio"</title>
 </head>
 
 <body>
-    
+
    <div class="headercontainer"> <img src="img/osspic2.png" class="logo">
 
     <h1><a href=#>
-              
+
           </a>
       </h1>
      <!-- Le puse un a para que al clickearlo redireccione Home-->
 
       <header>
-        <nav>  
+        <nav>
         <!--Esto estará en todas las hojas-->
-        
+
         <a href="index.html">Home </a> <!-- Probablemente index.html-->
         <a href="faq.html">FAQ </a>
         <a href="registro.html">Abre una cuenta </a>
@@ -32,12 +32,14 @@
         <!-- El nav supongo que debería ser una barra fixeada-->
         <br>
 
-        
+
 
       </header>
-       
-  <div class="fondomagic" >  
+
+  <div class="fondomagic" >
+<div class="box">
      <form class="registro-header">
+
           <label>Usuario o Email </label><br>
           <input type="text" name="usuario" required><br>
           <label> Contraseña </label><br>
@@ -49,8 +51,8 @@
           <input type="button" name="" value="Loguearse con Google"><br><br>
           <input type="button" name="" value="Loguearse con Facebook">
      </form>
-  
-  
+  </div>
+
   <img class="mySlides" src="img/bjjblackbelt.jpg" style="width:100%">
   <img class="mySlides" src="img/boxing.jpg" style="width:100%">
   <img class="mySlides" src="img/shaolin.jpg" style="width:100%">
@@ -61,11 +63,11 @@
       </p>
     </footer>
   <!--  +++++++++++++++++++++++++++++++++++++++++++++++++ -->
-      
+
     </div>
-  
-    
-  
+
+
+
 
     <script>
 var myIndex = 0;
@@ -75,15 +77,15 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
     setTimeout(carousel, 6000); // Change image every xx seconds
 }
 </script>
-  
+
 
 </body>
 </html>

@@ -218,7 +218,14 @@ max-width: ;
     .fondomagic{
         height: 360px
     }
-
+.mySlides{
+  height: 80vh;
+}
+.registro-header{
+  width:65vw;
+  height: 40vh;
+  left:5vw;
+}
     }
 
     /*++++++++++++++++++++++++++++++++++++++++++*/
@@ -264,6 +271,18 @@ position:absolut;
 .registro{
   padding-left:0%;
 }
+footer{
+  position: relative;
+  height:20vh;
+}
+.box{
+  position: absolute;
+  left:60vw;
+  bottom:45vw;
+}
+.registro-header{
+  height:30vw;
+}
 }
 /* +++++++++++++++++++++++++++++++ ++++++++++++++ */
 @media (min-width:1023px) {NAV A{
@@ -274,7 +293,12 @@ position:absolut;
     color: white;
     font-family: 'Swanky and Moo Moo', cursive;
     }
+    .registro-header{
 
+  top:20px;
+  min-width:9%;
+  right: 20%;
+  }
   }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @media (min-width:1281px) {
@@ -282,6 +306,6 @@ position:absolut;
 
 top:20px;
 min-width:9%;
-right: 20%
+right: 20%;
 }
 }
