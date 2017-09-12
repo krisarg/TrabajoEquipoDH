@@ -16,7 +16,7 @@
 }
 .headercontainer{
     background: #047;
-    
+
 }
 header{
     background-size:cover;
@@ -176,14 +176,14 @@ footer{
     padding-top: 20px;
 }
 /*----------------- @ medias 3 2 0 +++++++++++++  */
-@media (min-width:320px)
+@media (min-width:319px)
 
 { .container {
   height:60vh;
 }
   .headercontainer{
   width:100%;
-  
+
 }
   nav a{
   margin:3%;
@@ -208,123 +208,26 @@ max-width: ;
   padding-left:4%;
     margin-left:
 }
-
-}
-/*+++++++++++++++++++++++++++++++++++++++++++++*/
-@media (max-width:720px)  {
-    .logo{
-        top: 1vh;
-        left:25vw;
-        position: absolute;
-
-    }
-    .headercontainer{
-        position: relative;
-        padding-top: 4vh;
-        height: 60px;
-        background: -moz-linear-gradient(left, #499bea 0%, #060e55 31%, #000047 34%);
-background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(31%, #060e55), color-stop(34%, #000047));
-background: -webkit-linear-gradient(left, #499bea 0%, #060e55 31%, #000047 34%);
-background: -o-linear-gradient(left, #499bea 0%, #060e55 31%, #000047 34%);
-background: -ms-linear-gradient(left, #499bea 0%, #060e55 31%, #000047 34%);
-background: linear-gradient(to right, #499bea 0%, #060e55 31%, #000047 34%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#000047', GradientType=1 );
-}
-    }
-    .fondomagic{
-        height: 360px
-    }
 .mySlides{
-  height: 80vh;
-}
-.registro-header{
-    min-width:55vw;
-}
-
-/*++++++++++++++++++++++++++++++++++++++++++*/
-/*@media (min-width:721px)  {{
-position:absolute;
-left:15%;
-bottom:15%;
-width:60vw;
-height:30vw;
-}
-  .headercontainer{font-size: 100%;}
-  position:absolute;
-  top:15vw;
-}
-} */
-/*  ++++++++++++++++++++++++++++++++++++++++++ */
-@media (min-width:721px)
-
-{
-  {
-  width:100%;
-  font-size:80%;
-}
-  nav a{
-  margin:0.3%;
-      font-size: 
-}
-}
-.headercontainer{
-  font-size: 100%;
-}
-.faqs-container{
-  margin:none;
-  width:100%;
-  font-size:80%;
-}
-.faqs{
-  margin-right:5%;
-}
-.registro{
-  padding-left:0%;
+  height:80vh;
 }
 footer{
-  position: relative;
   height:20vh;
 }
 .registro-header{
-  max-width:24vw;
-  height: 49vh;
-  left:5vw;
-  
+min-width:50vw;
+left:10vw;
 }
-nav{
-    font-size:90%;
 }
-/* +++++++++++++++++++++++++++++++ ++++++++++++++ */
-@media (min-width:1023px) {NAV A{
-    font-size: 1.3em;
-    text-align: center;
-    margin: 1.9vh;
-    text-decoration: none;
-    color: white;
-    font-family: 'Swanky and Moo Moo', cursive;
-    }
-    .registro-header{
-
-  top:8vh;
-  min-width:9%;
-  max-width:13%;        
-  right: 20%;
+/*+++++++++++++++++++++++++++++++++++++++++++++*/
+@media (min-width:767px) {
+  .registro-header{
+min-width:20vw;
+  }
+}
+/*+++++++++++++++++++++++*/
+@media(min-width:1023px) {
+  .registro-header{
+    min-width:15vw;
   }
   }
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++*/
-@media (min-width:1281px) {
-    .registro-header{
-        top:8vh;
-        min-width:9%;
-        right: 20%;
-}
-    
-    
-}
-@media(min-width:2559px) {
-    .registro-header{
-        top:20vh;
-        min-width:8vw;
-        right:25%;
-    }
-}
